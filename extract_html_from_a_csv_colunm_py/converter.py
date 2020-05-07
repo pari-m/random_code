@@ -1,6 +1,10 @@
 # Simple Program that takes a CSV file and extracts only the HTML from the value in the eight column
 # and puts it back into a new file  
 
+#Row 8 in working.csv has html content as a substring in it.
+
+# this program extracts that and puts in back in a new csv's row8
+
 import csv
 
 actualrows = []
